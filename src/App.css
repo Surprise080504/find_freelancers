@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  overflow-y: auto;
+}
+
+.freelancer {
+  display: inline-block;
+  width: 300px;
+  height: 100%;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  border: 0.1rem solid #AAA;
+  border-radius: 0.1rem;
+}
+
+.freelancer:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+
+.freelancer.new {
+  background: #009999;
+  /* box-shadow: 0 0 12px 1px green; */
+}
+
+.info-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+}
+
+.info-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.info-avatar {
+  margin-right: 1rem;
+}
+.info-avatar img {
+  width: 100px;
+  height: 100px;
+}
+.info-detail {
+  text-align: left;
+}
+.info-detail--item {
+  font-size: 0.9rem;
+  line-height: 1rem;
+  text-align: left;
+  margin-bottom: 0.3rem;
+}
+.info-detail--item label {
+  text-align: left;
+}
+.info-detail--item span {
+  font-weight: bold;
+  float: right;
+}
+.info-btn {
+  height: 20px;
+  margin-bottom: 0.3rem;
+}
+#offlinecircle {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: red;
+}
+#onlinecircle {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  background: green;
+}
